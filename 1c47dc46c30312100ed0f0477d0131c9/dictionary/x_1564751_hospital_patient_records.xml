@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1e1ad04ac34312100ed0f0477d013189" label="Patient Records" max_length="40" name="x_1564751_hospital_patient_records" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Date of Admission" max_length="40" name="date_of_join" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Created By" max_length="32" name="u_reference_1" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Closed By" max_length="32" name="closedby" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Details" max_length="100" name="patientdetails" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Details" max_length="1000" name="patient_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Information" max_length="1000" name="patient_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" max_length="40" name="state" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="in progress"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="closedby"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>
