@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 15:00:50</sys_created_on>
+        <sys_id>d91ab9dfc3c352100ed0f0477d0131f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1564751_hospital_demorepo.x_1564751_hospital.demorepo_user</sys_name>
+        <sys_package display_value="Hospital Management" source="x_1564751_hospital">1c47dc46c30312100ed0f0477d0131c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management">1c47dc46c30312100ed0f0477d0131c9</sys_scope>
+        <sys_security_acl display_value="x_1564751_hospital_demorepo">d91ab9dfc3c352100ed0f0477d0131ef</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d91ab9dfc3c352100ed0f0477d0131f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 15:00:50</sys_updated_on>
+        <sys_user_role display_value="x_1564751_hospital.demorepo_user" name="x_1564751_hospital.demorepo_user">011ab9dfc3c352100ed0f0477d013195</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
